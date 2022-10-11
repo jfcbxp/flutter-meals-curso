@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
           textTheme: ThemeData.light().textTheme.copyWith(
               titleLarge:
                   TextStyle(fontSize: 20, fontFamily: 'RobotoCondensed'))),
-      home: CategoriesScreen(),
       routes: {
         AppRoutes.HOME: (ctx) => CategoriesScreen(),
         AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
